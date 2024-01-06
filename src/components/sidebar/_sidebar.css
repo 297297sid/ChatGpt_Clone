@@ -1,0 +1,59 @@
+.sidebar{
+    flex: 0.2;
+    padding: 2rem;
+    border-right: 2px solid gray;
+}
+
+.sidebar_top{
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-name{
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.sidebar_top_logo{
+    display: flex;
+    align-items: center;
+}
+
+.newChat-btn{
+    display: flex;
+    border: none;
+    background-color: royalblue;
+    border-radius: 2px;
+    max-height: 5rem;
+    min-height: 5rem;
+    width: 85%;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.newChat-img{
+    display: flex;
+    height: 2rem;
+    width: 2rem;
+}
+
+.newChat-btn span{
+    color: white;
+    margin-left: 1rem;
+}
+
+.query-btn{
+    border: none;
+    height: 4rem;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    background-color: transparent;
+    color: white;
+    border:1px solid white ;
+    border-radius: 5px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 2rem;
+}
